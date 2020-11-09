@@ -16,15 +16,18 @@ public class CreditoTest {
 
     @BeforeAll
     public static void before() throws Exception {
+        System.out.println("Starting the class tests");
     }
 
     @AfterAll
     public static void after() throws Exception {
+        System.out.println("Finishing the class tests");
     }
 
     /**
      * Method: concedeCredito(int parcelas, boolean confiavel, double salario) - true
      */
+    @DisplayName("Method: concedeCredito(int parcelas, boolean confiavel, double salario) - true")
     @Test
     public void testConcedeCreditoTrue() throws Exception {
         Credito credito = new Credito();
@@ -35,8 +38,8 @@ public class CreditoTest {
     /**
      * Method: concedeCredito(int parcelas, boolean confiavel, double salario) - false
      */
-    @Test
     @DisplayName("Method: concedeCredito(int parcelas, boolean confiavel, double salario) - false")
+    @Test
     public void testConcedeCreditoFalse() throws Exception {
         Credito credito = new Credito();
 
@@ -54,8 +57,8 @@ public class CreditoTest {
     /**
      * Method: definirCredito(int parcelas, boolean confiavel, double salario) - true
      */
-    @Test
     @DisplayName("Method: definirCredito(int parcelas, boolean confiavel, double salario) - true")
+    @Test
     public void testDefinirCreditoTrue() throws Exception {
         Credito credito = new Credito();
 
@@ -66,8 +69,8 @@ public class CreditoTest {
     /**
      * Method: definirCredito(int parcelas, boolean confiavel, double salario) - false
      */
-    @Test
     @DisplayName("Method: definirCredito(int parcelas, boolean confiavel, double salario) - false")
+    @Test
     public void testDefinirCreditoFalse() throws Exception {
         Credito credito = new Credito();
 

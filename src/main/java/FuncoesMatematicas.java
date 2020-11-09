@@ -1,5 +1,12 @@
 public class FuncoesMatematicas {
 
+    /**
+     * Calcula a potência de número
+     *
+     * @param base
+     * @param expoente
+     * @return long
+     */
     public static long calcularPotencia(int base, int expoente) {
         long resultado = 1;
         int p;
@@ -16,7 +23,12 @@ public class FuncoesMatematicas {
         return resultado;
     }
 
-
+    /**
+     * Calcula o fatorial de um número
+     *
+     * @param numero
+     * @return long
+     */
     public static long calcularFatorial(int numero) {
         long resultado = 1;
         for (int contador = numero; contador >= 1; contador--)

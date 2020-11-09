@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.objects.annotations.Constructor;
+
 import java.util.ArrayList;
 
 public class Aluno {
@@ -43,4 +45,7 @@ public class Aluno {
         this.frequencia = frequencia;
     }
 
+    public ArrayList getNotas() {
+        return notas;
+    }
 }
