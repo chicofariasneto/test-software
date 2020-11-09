@@ -27,7 +27,6 @@ public class Aluno {
         return aprovado;
     }
 
-
     public String getNome() {
         return nome;
     }

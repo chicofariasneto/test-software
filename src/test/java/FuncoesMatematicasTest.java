@@ -1,8 +1,6 @@
-package test;
-
-import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 
 /**
  * FuncoesMatematicas Tester.
@@ -13,11 +11,11 @@ import org.junit.After;
  */
 public class FuncoesMatematicasTest {
 
-    @Before
+    @BeforeAll
     public void before() throws Exception {
     }
 
-    @After
+    @AfterAll
     public void after() throws Exception {
     }
 
@@ -37,4 +35,4 @@ public class FuncoesMatematicasTest {
         //TODO: Test goes here...
     }
 
-} 
+}

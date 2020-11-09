@@ -1,8 +1,6 @@
-package test;
-
-import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 
 /**
  * Credito Tester.
@@ -13,12 +11,12 @@ import org.junit.After;
  */
 public class CreditoTest {
 
-    @Before
-    public void before() throws Exception {
+    @BeforeAll
+    public static void before() throws Exception {
     }
 
-    @After
-    public void after() throws Exception {
+    @AfterAll
+    public static void after() throws Exception {
     }
 
     /**
@@ -37,4 +35,4 @@ public class CreditoTest {
         //TODO: Test goes here...
     }
 
-} 
+}
