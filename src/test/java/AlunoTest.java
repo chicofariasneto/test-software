@@ -12,11 +12,11 @@ import org.junit.jupiter.api.AfterAll;
 public class AlunoTest {
 
     @BeforeAll
-    public void before() throws Exception {
+    public static void before() throws Exception {
     }
 
     @AfterAll
-    public void after() throws Exception {
+    public static void after() throws Exception {
     }
 
     /**
